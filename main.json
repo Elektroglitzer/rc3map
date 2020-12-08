@@ -54,15 +54,15 @@
                  "x":16,
                  "y":0
                 }],
-         "height":16,
+         "height":48,
          "id":5,
          "name":"walls",
          "opacity":1,
          "startx":0,
-         "starty":0,
+         "starty":-16,
          "type":"tilelayer",
          "visible":true,
-         "width":32,
+         "width":48,
          "x":0,
          "y":0
         }, 
@@ -83,7 +83,7 @@
          "starty":0,
          "type":"tilelayer",
          "visible":true,
-         "width":16,
+         "width":32,
          "x":0,
          "y":0
         }, 
