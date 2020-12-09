@@ -1,35 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="6" nextobjectid="1">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <editorsettings>
   <export target="main.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="mapUtilities" tilewidth="32" tileheight="32" tilecount="9" columns="9">
-  <image source="mapUtilities.png" width="288" height="32"/>
+  <image source="common/mapUtilities.png" width="288" height="32"/>
  </tileset>
  <tileset firstgid="10" name="fairydurst" tilewidth="32" tileheight="32" tilecount="216" columns="12">
-  <image source="fairydust.png" width="384" height="576"/>
+  <image source="common/fairydust.png" width="384" height="576"/>
  </tileset>
  <tileset firstgid="226" name="rc3-mullana-floor-wall" tilewidth="32" tileheight="32" tilecount="256" columns="16">
-  <image source="rc3-mullana-floor-wall.png" width="512" height="512"/>
+  <image source="common/rc3-mullana-floor-wall.png" width="512" height="512"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" value="true"/>
+   </properties>
+  </tile>
   <tile id="1">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" value="true"/>
    </properties>
   </tile>
-  <tile id="21">
+  <tile id="2">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" value="true"/>
    </properties>
   </tile>
-  <tile id="37">
+  <tile id="3">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="collides" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="collides" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collides" value="true"/>
    </properties>
   </tile>
  </tileset>
- <layer id="1" name="start" width="100" height="100">
+ <tileset firstgid="482" name="ne-mo_stuff" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="ne-mo/stuff.png" width="1024" height="1024"/>
+  <tile id="0">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="collide" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="6" name="floor0" width="16" height="16">
   <data encoding="csv">
-   <chunk x="0" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,248,249,248,249,248,249,248,249,248,249,248,249,248,249,0,
+0,264,265,264,265,264,265,264,265,264,265,264,265,264,265,0,
+0,248,249,248,249,248,249,248,249,248,249,248,249,248,249,0,
+0,264,265,264,265,264,265,264,265,264,265,264,265,264,265,0,
+0,248,249,248,249,248,249,248,249,248,249,248,249,248,249,0,
+247,264,265,264,265,264,265,264,265,264,265,264,265,264,265,0,
+0,248,249,248,249,248,249,248,249,248,249,248,249,248,249,0,
+0,264,265,264,265,264,265,264,265,264,265,264,265,264,265,0,
+0,248,249,248,249,248,249,248,249,248,249,248,249,248,249,0,
+0,264,265,264,265,264,265,264,265,264,265,264,265,264,265,0,
+0,248,249,248,249,248,249,248,249,248,249,248,249,248,249,0,
+0,264,265,264,265,264,265,264,265,264,265,264,265,264,265,0,
+0,248,249,248,249,0,0,0,0,248,249,248,249,248,249,0,
+0,264,265,264,265,0,262,262,262,264,265,264,265,264,265,0,
+0,0,0,0,0,0,0,247,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="start" width="16" height="16">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -39,24 +110,56 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="walls" width="16" height="16">
+  <data encoding="csv">
+226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,
+226,0,0,0,0,227,227,227,227,0,0,0,0,0,0,226,
+226,0,0,0,0,227,0,0,0,0,0,0,0,0,0,226,
+226,226,226,226,226,227,226,0,226,226,226,226,226,226,226,226
+</data>
+ </layer>
+ <layer id="7" name="objects" width="16" height="16">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,482,483,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,514,515,484,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,518,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-</chunk>
-  </data>
+</data>
  </layer>
  <objectgroup id="2" name="floorLayer"/>
- <layer id="3" name="exitToStart" width="100" height="100">
+ <layer id="3" name="exitToStart" width="16" height="16">
   <properties>
    <property name="NoexitUrl" value="map.json#start"/>
    <property name="comment" value="Seems that exitUrl must point to another map"/>
   </properties>
   <data encoding="csv">
-   <chunk x="0" y="0" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -71,17 +174,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
-</chunk>
-  </data>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226
+</data>
  </layer>
- <layer id="4" name="openWebsiteStreaming" width="100" height="100">
+ <layer id="4" name="openWebsiteStreaming" width="16" height="16">
   <properties>
    <property name="openWebsite" value="https://streaming.media.ccc.de"/>
   </properties>
   <data encoding="csv">
-   <chunk x="0" y="0" width="16" height="16">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -98,29 +199,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0
-</chunk>
-  </data>
- </layer>
- <layer id="5" name="walls" width="100" height="100">
-  <data encoding="csv">
-   <chunk x="0" y="0" width="16" height="16">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,227,227,227,227,0,0,0,0,0,0,0,
-0,0,0,0,0,227,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,227,0,0,0,0,0,0,0,0,0,0
-</chunk>
-  </data>
+</data>
  </layer>
 </map>
