@@ -2027,7 +2027,7 @@
  </layer>
  <layer id="3" name="exitToLobby" width="32" height="64">
   <properties>
-   <property name="exitUrl" value="{&lt;lobby&gt;/hardware-making.json#start_elektroglitzer}"/>
+   <property name="exitUrl" value="{&lt;lobby&gt;/maps/hardware-making.json#start_elektroglitzer}"/>
   </properties>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
