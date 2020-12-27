@@ -253,7 +253,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lobby>\/hardware-making.json#start_elektroglitzer}"
+                 "value":"{<lobby>\/maps\/hardware-making.json#start_elektroglitzer}"
                 }],
          "type":"tilelayer",
          "visible":true,
