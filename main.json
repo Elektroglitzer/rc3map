@@ -4,7 +4,7 @@
      "export":
         {
          "format":"json",
-         "target":"main2.json"
+         "target":"main.json"
         }
     },
  "height":64,
@@ -1447,7 +1447,7 @@
                         {
                          "name":"collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
@@ -1456,7 +1456,7 @@
                         {
                          "name":"collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
