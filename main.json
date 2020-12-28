@@ -38,7 +38,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"shared ElektroGlitzer"
+                 "value":"shared Elektroglitzer"
                 }],
          "type":"tilelayer",
          "visible":true,
