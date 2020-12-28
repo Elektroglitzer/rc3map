@@ -219,7 +219,7 @@
   </tile>
   <tile id="3">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="4">
@@ -519,12 +519,12 @@
   </tile>
   <tile id="121">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="122">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="123">
@@ -589,12 +589,12 @@
   </tile>
   <tile id="149">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="151">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="154">
@@ -649,12 +649,12 @@
   </tile>
   <tile id="185">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="186">
    <properties>
-    <property name="collides" type="bool" value="true"/>
+    <property name="collides" type="bool" value="false"/>
    </properties>
   </tile>
   <tile id="187">
@@ -812,17 +812,27 @@
   <image source="common/stuff_animations.png" width="1024" height="1024"/>
   <tile id="2">
    <animation>
-    <frame tileid="2" duration="100"/>
-    <frame tileid="34" duration="100"/>
-    <frame tileid="66" duration="100"/>
-    <frame tileid="98" duration="100"/>
-    <frame tileid="130" duration="100"/>
-    <frame tileid="162" duration="100"/>
-    <frame tileid="194" duration="100"/>
-    <frame tileid="162" duration="100"/>
-    <frame tileid="130" duration="100"/>
-    <frame tileid="98" duration="100"/>
-    <frame tileid="66" duration="100"/>
+    <frame tileid="2" duration="300"/>
+    <frame tileid="34" duration="300"/>
+    <frame tileid="66" duration="300"/>
+    <frame tileid="98" duration="300"/>
+    <frame tileid="130" duration="300"/>
+    <frame tileid="162" duration="300"/>
+    <frame tileid="194" duration="300"/>
+    <frame tileid="162" duration="300"/>
+    <frame tileid="130" duration="300"/>
+    <frame tileid="98" duration="300"/>
+    <frame tileid="66" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="3">
+   <animation>
+    <frame tileid="3" duration="300"/>
+    <frame tileid="5" duration="300"/>
+    <frame tileid="6" duration="300"/>
+    <frame tileid="4" duration="300"/>
+    <frame tileid="3" duration="300"/>
+    <frame tileid="6" duration="300"/>
    </animation>
   </tile>
   <tile id="32">
@@ -842,6 +852,17 @@
     <frame tileid="160" duration="100"/>
     <frame tileid="96" duration="100"/>
     <frame tileid="32" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="35">
+   <animation>
+    <frame tileid="35" duration="300"/>
+    <frame tileid="36" duration="300"/>
+    <frame tileid="37" duration="300"/>
+    <frame tileid="38" duration="300"/>
+    <frame tileid="36" duration="300"/>
+    <frame tileid="37" duration="300"/>
+    <frame tileid="38" duration="300"/>
    </animation>
   </tile>
  </tileset>
@@ -1749,8 +1770,8 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1714,1714,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1798,1746,1746,1747,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1778,1778,1779,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1798,2533,2533,1747,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2565,2565,1779,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,1533,1534,1534,1534,1535,0,0,0,0,1533,1534,1534,1534,1534,1535,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,1565,1566,1566,1566,1567,0,0,0,0,1565,1566,1566,1566,1566,1567,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,1597,1598,1598,1598,1599,0,0,0,0,1597,1598,1598,1598,1802,1599,0,0,0,0,0,0,0,0,
