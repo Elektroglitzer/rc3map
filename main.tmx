@@ -865,6 +865,105 @@
     <frame tileid="38" duration="300"/>
    </animation>
   </tile>
+  <tile id="67">
+   <animation>
+    <frame tileid="67" duration="300"/>
+    <frame tileid="163" duration="300"/>
+    <frame tileid="259" duration="300"/>
+    <frame tileid="355" duration="300"/>
+    <frame tileid="451" duration="300"/>
+    <frame tileid="547" duration="300"/>
+    <frame tileid="259" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="68">
+   <animation>
+    <frame tileid="68" duration="300"/>
+    <frame tileid="164" duration="300"/>
+    <frame tileid="260" duration="300"/>
+    <frame tileid="356" duration="300"/>
+    <frame tileid="452" duration="300"/>
+    <frame tileid="548" duration="300"/>
+    <frame tileid="356" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="69">
+   <animation>
+    <frame tileid="69" duration="300"/>
+    <frame tileid="165" duration="300"/>
+    <frame tileid="261" duration="300"/>
+    <frame tileid="357" duration="300"/>
+    <frame tileid="453" duration="300"/>
+    <frame tileid="549" duration="300"/>
+    <frame tileid="357" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="99">
+   <animation>
+    <frame tileid="99" duration="300"/>
+    <frame tileid="195" duration="300"/>
+    <frame tileid="291" duration="300"/>
+    <frame tileid="387" duration="300"/>
+    <frame tileid="483" duration="300"/>
+    <frame tileid="579" duration="300"/>
+    <frame tileid="387" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="100">
+   <animation>
+    <frame tileid="100" duration="300"/>
+    <frame tileid="196" duration="300"/>
+    <frame tileid="292" duration="300"/>
+    <frame tileid="388" duration="300"/>
+    <frame tileid="484" duration="300"/>
+    <frame tileid="580" duration="300"/>
+    <frame tileid="388" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="101">
+   <animation>
+    <frame tileid="101" duration="300"/>
+    <frame tileid="197" duration="300"/>
+    <frame tileid="293" duration="300"/>
+    <frame tileid="389" duration="300"/>
+    <frame tileid="485" duration="300"/>
+    <frame tileid="581" duration="300"/>
+    <frame tileid="389" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="131">
+   <animation>
+    <frame tileid="131" duration="300"/>
+    <frame tileid="227" duration="300"/>
+    <frame tileid="323" duration="300"/>
+    <frame tileid="419" duration="300"/>
+    <frame tileid="515" duration="300"/>
+    <frame tileid="611" duration="300"/>
+    <frame tileid="419" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="132">
+   <animation>
+    <frame tileid="132" duration="300"/>
+    <frame tileid="228" duration="300"/>
+    <frame tileid="324" duration="300"/>
+    <frame tileid="420" duration="300"/>
+    <frame tileid="516" duration="300"/>
+    <frame tileid="612" duration="300"/>
+    <frame tileid="420" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="133">
+   <animation>
+    <frame tileid="133" duration="300"/>
+    <frame tileid="229" duration="300"/>
+    <frame tileid="325" duration="300"/>
+    <frame tileid="421" duration="300"/>
+    <frame tileid="517" duration="300"/>
+    <frame tileid="613" duration="300"/>
+    <frame tileid="421" duration="300"/>
+   </animation>
+  </tile>
  </tileset>
  <layer id="4" name="openWebsiteStreaming" width="32" height="64">
   <properties>
