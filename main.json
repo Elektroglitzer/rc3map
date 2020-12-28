@@ -1267,7 +1267,7 @@
                         {
                          "name":"collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
@@ -1420,7 +1420,7 @@
                         {
                          "name":"collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }, 
                 {
@@ -2108,7 +2108,40 @@
                          "duration":300,
                          "tileid":38
                         }],
-                 "id":35
+                 "id":35,
+                 "properties":[
+                        {
+                         "name":"collision",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":36,
+                 "properties":[
+                        {
+                         "name":"collision",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":37,
+                 "properties":[
+                        {
+                         "name":"collision",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":38,
+                 "properties":[
+                        {
+                         "name":"collision",
+                         "type":"bool",
+                         "value":true
+                        }]
                 }, 
                 {
                  "animation":[
