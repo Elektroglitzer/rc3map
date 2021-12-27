@@ -436,16 +436,6 @@
          "spacing":0,
          "tilecount":216,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"tilesetCopyright",
-                         "type":"string",
-                         "value":"CC0-1.0"
-                        }]
-                }],
          "tilewidth":32
         }, 
         {
@@ -2244,7 +2234,7 @@
                  "id":35,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -2253,7 +2243,7 @@
                  "id":36,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -2262,7 +2252,7 @@
                  "id":37,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
@@ -2271,7 +2261,7 @@
                  "id":38,
                  "properties":[
                         {
-                         "name":"collision",
+                         "name":"collides",
                          "type":"bool",
                          "value":true
                         }]
