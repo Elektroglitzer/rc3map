@@ -106,12 +106,6 @@
          "id":27,
          "name":"entryBadge",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"Be7cRV320z2bk6E4HnYmpdFu2sRmvPxIBnxtVJBpV7uGVkUhsW"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":32,
@@ -351,12 +345,6 @@
          "id":26,
          "name":"printBadge",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"BcDK66p7j7OJvCz4MYNcLmj0NlIv6l74Elbtmjcg1qyE7e5grv"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":32,
@@ -369,12 +357,6 @@
          "id":24,
          "name":"washBadge",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"YBPvcIaI8hFpYj8ZW3w4CCwhmpAx9tG5Vsw7nF4nMIzeAPvOO6"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":32,
@@ -387,12 +369,6 @@
          "id":25,
          "name":"carBadge",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"GYnY8qFvRHGsBC9FEeqJve9tqrWxztGSs1PCEKPL5sKoTpwyDt"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":32,

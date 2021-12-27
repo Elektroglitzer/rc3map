@@ -9,6 +9,12 @@ Currently a minimal example with basic map layers:
 ![screenshot](screenshot.png)
 
 
+## TODO RC3 - 2021
+
+* Add badges and object layers for them
+    * e.g. see old carBadge, washBadge, printBadge, entryBade layers
+* Add big blue button link
+
 ## TODO / Wish List
 
 ### Basic
