@@ -337,7 +337,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"{<lobby>\/maps\/hardware-making.json#start_elektroglitzer}"
+                 "value":"world:\/\/lobby\/punchcard.json#start_glitzer"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -402,6 +402,12 @@
  "nextlayerid":30,
  "nextobjectid":1,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"mapCopyright",
+         "type":"string",
+         "value":"MIT"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
  "tileheight":32,
@@ -433,6 +439,12 @@
          "imagewidth":384,
          "margin":0,
          "name":"fairydurst",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0-1.0"
+                }],
          "spacing":0,
          "tilecount":216,
          "tileheight":32,
@@ -745,6 +757,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"ne-mo_stuff",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0-1.0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -813,6 +831,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"common_stuff",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0-1.0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1925,6 +1949,12 @@
          "imagewidth":1024,
          "margin":0,
          "name":"stuff_animations",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0-1.0"
+                }],
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
