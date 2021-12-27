@@ -21,6 +21,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/streaming.media.ccc.de"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -38,7 +43,12 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"shared Elektroglitzer"
+                 "value":"elektroglitzer"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
