@@ -403,7 +403,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.4.3",
+ "tiledversion":"1.7.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -414,6 +414,12 @@
          "imagewidth":288,
          "margin":0,
          "name":"mapUtilities",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0-1.0"
+                }],
          "spacing":0,
          "tilecount":9,
          "tileheight":32,
@@ -430,6 +436,16 @@
          "spacing":0,
          "tilecount":216,
          "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"tilesetCopyright",
+                         "type":"string",
+                         "value":"CC0-1.0"
+                        }]
+                }],
          "tilewidth":32
         }, 
         {
@@ -440,6 +456,12 @@
          "imagewidth":512,
          "margin":0,
          "name":"rc3-mullana-floor-wall",
+         "properties":[
+                {
+                 "name":"tilesetCopyright",
+                 "type":"string",
+                 "value":"CC0-1.0"
+                }],
          "spacing":0,
          "tilecount":256,
          "tileheight":32,
@@ -2546,6 +2568,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":1.4,
+ "version":"1.6",
  "width":32
 }
