@@ -18,6 +18,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":" openWebsiteStreaming",
+                 "type":"string",
+                 "value":"Press space to join us watching the streams"
+                }, 
+                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/streaming.media.ccc.de"
@@ -124,6 +129,12 @@
                  "height":33,
                  "id":4,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"getBadge",
+                         "type":"string",
+                         "value":"i59vXOykxcEkuqTN4E29ToGD3DQJvAnLKwd1ps16U0mOmtP5hM"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -132,12 +143,6 @@
                  "y":1664
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"getBadge",
-                 "type":"string",
-                 "value":"i59vXOykxcEkuqTN4E29ToGD3DQJvAnLKwd1ps16U0mOmtP5hM"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,

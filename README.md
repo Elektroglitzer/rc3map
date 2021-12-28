@@ -2,9 +2,10 @@
 
 See [HowTo rC3 world maps](https://howto.rc3.world/maps.html).
 
-This map is available under the following testserver URL: [link](https://test.visit.at.wa-test.rc3.cccv.de/_/global/elektroglitzer.github.io/rc3map/main.json).
+This map is available under the following testserver URL: [link](https://wa.tabascoeye.de/_/global/raw.githubusercontent.com/Elektroglitzer/rc3map/master/main.json).
 
-Currently a minimal example with basic map layers:
+
+Currently it looks like this:
 
 ![screenshot](screenshot.png)
 
@@ -12,8 +13,7 @@ Currently a minimal example with basic map layers:
 ## TODO RC3 - 2021
 
 * Add badges and object layers for them
-    * e.g. see old carBadge, washBadge, printBadge, entryBade layers
-* Add big blue button link
+    * e.g. see old carBadge, washBadge, printBadge
 
 ## TODO / Wish List
 
