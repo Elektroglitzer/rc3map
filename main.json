@@ -160,7 +160,7 @@
                  "y":1451
                 }, 
                 {
-                 "height":42.5,
+                 "height":68.5,
                  "id":9,
                  "name":"",
                  "properties":[
@@ -174,10 +174,10 @@
                  "visible":true,
                  "width":31.375,
                  "x":608.375,
-                 "y":146.625
+                 "y":135.625
                 }, 
                 {
-                 "height":43.75,
+                 "height":71.75,
                  "id":10,
                  "name":"",
                  "properties":[
@@ -191,7 +191,7 @@
                  "visible":true,
                  "width":31.125,
                  "x":416.625,
-                 "y":690
+                 "y":688.5
                 }],
          "opacity":1,
          "type":"objectgroup",
