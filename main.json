@@ -18,11 +18,6 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":" openWebsiteStreaming",
-                 "type":"string",
-                 "value":"Press space to join us watching the streams"
-                }, 
-                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/streaming.media.ccc.de"
@@ -31,6 +26,11 @@
                  "name":"openWebsiteTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Press space to join us watching the streams"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -419,6 +419,21 @@
          "name":"mapCopyright",
          "type":"string",
          "value":"MIT"
+        }, 
+        {
+         "name":"mapDescription",
+         "type":"string",
+         "value":"RC3 2021 workadventure map for Elektroglitzer assembly"
+        }, 
+        {
+         "name":"mapLink",
+         "type":"string",
+         "value":"https:\/\/github.com\/Elektroglitzer\/rc3map"
+        }, 
+        {
+         "name":"mapName",
+         "type":"string",
+         "value":"Elektroglitzer assembly"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.7.2",
